@@ -1,0 +1,241 @@
+body{
+    background-image: url('images/bg3.jpg');
+    opacity: 0.8;
+}
+h2{
+    color: brown;
+    font-size: 20px;
+    text-transform: uppercase;
+}   
+
+table, tr, th, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+#imagediv{
+    border: 2px brown double;
+    padding: 20px;
+}
+
+#container{
+    /*border: 1px black solid;*/
+    /*margin: 0 50px 0 50px;*/
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+
+    padding: 20px 60px 10px 60px;
+
+    border-radius: 5px;
+}
+
+.header{
+    
+    text-transform: uppercase;
+}
+
+#container{
+  background-color: #D3D3D3;
+}
+
+/*.navbar{
+  margin-bottom: 2%;
+}
+
+.navbar ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  background-color: #C0C0C0;
+}
+
+
+.navbar li a{
+    display: block;
+    color:rgb(13, 10, 10);
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover{
+    background-color: #696969;
+    color:rgb(255, 255, 255);
+  }
+*/
+
+/*Start Navbar style*/
+  .navbar1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  li{
+    float: left;
+  }
+
+  li a{
+    display: block;
+    padding: 15px 35px 10px 15px;
+    background-color: #2F4F4F;
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  li a:hover{
+    background-color: #D3D3D3;
+    color:rgb(22, 22, 22);
+    transition-duration: 1s;
+  }
+/*End Navbar style*/
+
+
+/*Start Dropdown style*/ 
+
+  .subjects{
+   /* visibility: hidden;*/
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .subjects li{    
+    clear: both;
+    padding: 0px 10px 0px 2px;
+    width: 120px;
+  }
+
+  .subjecttitle:hover .subjects{
+    display: block;
+    /*visibility: visible;*/
+  }
+  /*end dropdown style*/
+
+
+
+  /*Styling form elements*/
+  .formcontainer{
+    /*border: solid 1px black;*/
+    background-color: antiquewhite;
+    padding: 30px 40px 30px 40px;
+    border-radius: 10px;
+  }
+
+  .formcontainer input{
+      width: 90%;
+      margin: 10px 15px 10px 15px;
+      padding: 5px 10px 10px 5px;
+      font-size: 18px;
+  }
+
+  .formcontainer input[type=text]{
+    border: 2px solid rgb(186, 248, 155);
+    border-radius: 5px;
+  }
+
+  .formcontainer input[type=email]{
+    border: 2px solid rgb(155, 217, 248);
+    border-radius: 5px;
+  }
+
+  .formcontainer input[type=number]{
+    border: 2px solid rgb(248, 185, 155);
+    border-radius: 5px;
+  }
+
+  .formcontainer input[type=password]{
+    border: none;
+    border-bottom: 2px solid rgb(189, 155, 248);
+  }
+
+  .formcontainer textarea{
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 15px 10px 15px;
+    resize: none;
+  }
+
+  .formcontainer button{
+    width: 40%;
+    background-color: blue;
+    margin: 0 30% 0 10%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+  }
+
+  /*Status attributes*/
+  /* - Hover */
+  /* - Focus */
+  /* - blur */
+  /* - keyup */
+  /* - change */
+  /* - click */
+
+  .formcontainer input[type=text]:focus {
+    border: 2px solid rgb(101, 249, 123);
+    box-shadow: 0 0 0 4px aqua;
+
+  } 
+
+
+  .searchdiv{
+    margin: 0 50% 0 10%;
+    text-align: center;
+  }
+
+  .searchbox{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px 10px 20px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+
+  .searchbox1{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px 10px 20px;
+    background-color: rgb(255, 255, 255);    
+    font-size: 20px;
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 2s ease-in-out;
+  }
+
+  .searchbox1:focus{
+    background-color: rgb(255, 255, 255);    
+    width: 60%;
+  }
+
+
+
+
+
+  /*
+  Pending
+  .searchdiv input[type=text]:focus{
+    border: none;
+  }*/

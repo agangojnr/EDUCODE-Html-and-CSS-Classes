@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to Html</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="container">
+
+<!--     
+Home 
+About
+Admissions
+BOG
+Teachers
+Events
+Galary
+-->
+
+<!--<div class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">BOG</a></li>
+        <li><a href="#">Teachers</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="#">Galary</a></li>
+    </ul>
+</div>-->
+
+
+<div class="navbar1">
+    <ul>
+        <li>
+            <a href="#">HOME</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Admissions</a>
+        </li>
+        <li>
+            <a href="#">BOG</a>
+        </li>
+        <li class="subjecttitle">
+            <a href="#">Subjects</a>
+            <ul class="subjects">
+                <li>
+                    <a href="#">Humanities</a>
+                </li>
+                <li>
+                    <a href="#">Sciences</a>
+                </li>
+                <li>
+                    <a href="#">Languages</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Events</a>
+        </li>
+        <li>
+            <a href="#">Galary</a>
+        </li>
+    </ul>
+</div>
+<br><br>
+
+
+<!--Search box-->
+
+<div class="searchdiv">    
+    <input type="text" class="searchbox">
+</div>
+
+
+
+
+<hr>
+<div class="searchdiv1">
+    <input type="text" class="searchbox1">
+</div>
+
+
+
+
+<!--First heading-->
+<h2 class="header" id="topheader">Our heading</h2>
+<button name="submit" type="button" onclick="alert('The button was clicked!');">Submit Comment</button>
+<hr />
+<a href="#colrowspan">Colspan and Rowspan</a>
+
+
+<!--Document content-->
+<p> <b>Comment</b>  The comments you <br/>write in the middle will not show up on the page.
+    <span>Comment The comments</span>  you write in the middle will not show up on the page when viewed. <br>  Comment The comments you write in the middle will not show up on the page. Comment The comments you write in the middle will not show up on the page when viewed.</p>
+    <hr>
+    <h4 class="header" style="color: darkblue;">This are HTML tags</h4>
+    <!--Forth heading-->
+
+    <div id="imagediv">
+        <hr>
+        <!--Placing an image on HTML page-->
+        <img src="images/img2.jpg" alt="Loading...">
+        <hr>
+        <!--Second image-->
+        <img src="images/img3.jpg" alt="Second image loading..." height="50px" width="50px">
+        <hr>
+    </div>
+
+    <hr>
+
+    <h1 class="header">HTML TABLES</h1>
+    <table>
+        <tr>
+            <td>English</td>
+            <td>Kiswahili</td>
+            <td>Chemistry</td>
+            <td>Biology</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>80</td>
+            <td>77</td>
+            <td>97</td>
+        </tr>
+    </table>
+
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>English</th>
+                <th>Kiswahili</th>
+                <th>Chemistry</th>
+                <th>Mathematics</th>
+                <th>Biology</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Colins Karanja</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Helen Kisilu</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Nathan Otieno</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Martha Muthoni</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Francis Kibe</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Felix Juma</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>James Ambiso</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Lameck Hamisi</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Nancy Fatuma</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Fatuma Gedi</td>
+                <td>67</td>
+                <td>97</td>
+                <td>49</td>
+                <td>79</td>
+                <td>86</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Student Name</th>
+                <th>English</th>
+                <th>Kiswahili</th>
+                <th>Chemistry</th>
+                <th>Mathematics</th>
+                <th>Biology</th>
+            </tr>
+        </tfoot>
+    </table>
+<hr>
+
+<h2 class="header" id="colrowspan">COLSPAN AND ROWSPAN</h2>
+<table>
+<thead>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>        
+</thead>
+<tbody>
+    <tr>
+        <th>Lesson 1</th>
+        <td rowspan="2">Eng</td>
+        <td>Kis</td>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+    </tr>
+    <tr>
+        <th>Lesson 2</th>
+        
+        <td>Kis</td>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+    </tr>
+    <tr>
+        <th colspan="6">Break</th>
+        
+    </tr>
+</tbody>
+</table>
+<br><br>
+<hr>
+
+<table>
+<thead>
+    <tr>
+        <th colspan="2"></th>
+        
+        <th>Name</th>
+        <th>Mass (10 <sup>24</sup>Kg)</th>
+        <th>Diameter (Km)</th>
+        <th>Density (Kg/m <sup>3</sup>)</th>
+        <th>Gravity (M/s <sup>2</sup>)</th>
+        <th>Length of day</th>
+        <th>Distance from the sun (10 <sup>6</sup>Km)</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td colspan="2" rowspan="4">Terresytrial Planets</td>
+
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+       
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+        
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+        
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Mercury</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+        <td>0.33</td>
+    </tr>
+</tbody>
+</table>
+
+<hr>
+<h2 class="header">Lists in HTML</h2>
+
+<h4><b><u>COURSE OUTLINE</u></b></h4>
+<ol>
+<li>Introduction to HTML</li>
+<li>Introduction to Cascading style sheet (CSS)</li>
+<li>Introduction to JavaScript</li>
+</ol>
+
+<label>1. Introduction to HTML</label> <br>
+<label>2. Introduction to HTML</label><br>
+<label>3. Introduction to HTML</label>
+
+<br><br>
+<h4><b><u>COURSE OUTLINE</u></b></h4>
+<ul>
+<li>Introduction to HTML</li>
+<li>Introduction to Cascading style sheet (CSS)</li>
+<li>Introduction to JavaScript</li>
+</ul>
+
+
+<br><br>
+<h2>Definition List</h2>
+<dl>
+<dt>HTML</dt>
+<dd>Hypertext Markup Language Hypertext Markup Language Hypertext Markup Language Hypertext Markup Language Hypertext Markup Language</dd>
+</dl>
+
+<hr>
+<h2>LINKS</h2>
+<!--Anchor tag-->
+<a href="http://www.google.com">Google Website</a>
+<h4>Types of links</h4>
+<ul>
+<li>Links within a page</li>
+<li>Links to other websites</li>
+<li>links to different files</li>
+</ul>
+
+<br><br>
+
+<a href="#topheader">Back to top</a>
+
+<br> <br>
+<h2>HTML FORMS</h2>
+
+
+<div class="formcontainer">
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action="">            
+            <input type="text" class="test" name="firstname" placeholder="Enter first name.."> 
+            <input type="text" name="lastname" placeholder="Enter last name...">
+            <input type="email" name="email" placeholder="Enter your email...">
+            <input type="number" name="phonenumber" placeholder="Enter phone number...">
+            <input type="password" name="phonenumber" placeholder="Enter your password...">
+            <input type="password" name="phonenumber" placeholder="Confirm your password...">
+            <textarea name="description" id="" cols="30" rows="10" placeholder="Write about yourself..."></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </fieldset>
+    
+</div>
+
+
+
+
+<hr>
+<h5>Registration Form</h5>
+<form action="">
+
+<table style="border-collapse: collapse;">
+<tr>
+    <td>
+        <label for="firstname">First Name:</label>
+    </td>
+    <td>
+        <input type="text" name="firstname" placeholder="Enter first name.."> 
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="lastname">Last Name:</label>
+    </td>
+    <td>
+        <input type="text" name="lastname" placeholder="Enter last name...">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="phonenumber">Phone Number:</label>
+    </td>
+    <td>
+        <input type="number" name="phonenumber" placeholder="Enter phone number...">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="gender">Field of Specialization:</label>
+    </td>
+    <td>
+        <select name="studyfield" id="">
+            <option value="">Choose Field of Study</option>
+            <option value="1">Engineering</option>
+            <option value="2">Finance</option>
+            <option value="3">Tourism</option>
+            <option value="4">IT</option>
+        </select>
+    </td>        
+</tr>
+<tr>
+    <td>
+        <label for="">Gender:</label>
+    </td>
+    <td>
+        <label for="">Male </label>
+        <input type="radio" name="gender" >
+        <label for="">Female</label>
+        <input type="radio" name="gender">
+        <label for="">Other</label>
+        <input type="radio" name="gender">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="">Hobbies:</label>
+    </td>
+    <td>
+        <label for="">Playing Chess:</label>
+        <input type="checkbox" name="hobbies">
+        <label for="">Swimming:</label>
+        <input type="checkbox" name="hobbies">
+        <label for="">Travelling:</label>
+        <input type="checkbox" name="hobbies">
+        <label for="">Playing Soccar:</label>
+        <input type="checkbox" name="hobbies">
+    </td>        
+</tr>
+<tr>
+    <td colspan="2">
+        <button onclick="alert('You clicked a button.')">Submit</button>
+    </td>
+
+</tr>
+<tr>
+    <td colspan="2">
+        <label for="ice-cream-choice">Choose a flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist>
+    </td>
+</tr>
+</table>
+
+</form>
+
+<br><br>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<progress id="file" max="100" value="90"> 70% </progress>
+
+
+<fieldset>
+<legend>Comment Section</legend>
+
+<label for="">Choose your favouite fruit:</label>
+<input list="fruit1" name="fruit">
+<datalist id="fruit1">
+    <option value="Pineapple">
+    <option value="Mango">
+    <option value="Watermelon">
+    <option value="Lemon">
+</datalist>
+
+<label for="">Give your Comment:</label><br><br>
+<textarea name="comment" id="" cols="60" rows="2"></textarea> <br>
+<button name="submit" type="button" onclick="alert('The button was clicked!');">Submit Comment</button>
+</fieldset>
+
+
+<form action="">
+<fieldset>
+    <legend>Login Form</legend>
+        <label for="">Email Address: &nbsp;&nbsp;</label>
+        <input type="email" name="email"> <br/> <br>
+        <label for="">Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <input type="password" name="password"><br><br>
+
+        <button type="button">Login</button>
+</fieldset>
+</form>
+
+<hr>
+<h3>Other form elements</h3>
+<ol>
+<li>File input</li>
+<li>Progre Bar</li>
+<li>Meter bar</li>
+<li>Option group</li>
+</ol>
+
+<form action="">
+<fieldset>
+    <legend>File Import</legend>
+        <label for="upload">Upload a File:</label>
+        <input type="file" name="excelupload"><br> <br>
+
+        <h5>Progress Bar</h5>
+        <label for="">Process status:</label>
+        <progress id="process" min="0" max="100" value="40"></progress> <br>
+
+        <label for="">Process status:</label>
+        <progress id="process" high="100" value="0.4"></progress> &nbsp; 40%
+
+        <br>
+        <h5>Meter Bar</h5>
+        <label for="">Fuel Level:</label>
+        <meter id="fuellevel" min="20" max="120" value="78"></meter>
+        <br>
+
+        <h5>Option Group</h5>
+        <label for="">Course</label>
+        <select name="courses" id="courses">
+            <option value="">Choose a course</option>
+            <optgroup label=" Business Courses">                   
+                <option value="ba">Business Administration</option>
+                <option value="ba">Bachelor of Commerce</option>
+                <option value="ba">Bachelor in Accounting</option>
+            </optgroup>
+
+            <optgroup label="IT Courses">
+                <option value="cs">Computer Science</option>
+                <option value="bsit">Bs Information Technology</option>
+                <option value="se">Software Engineering</option>
+            </optgroup>
+            
+        </select>
+
+</fieldset>
+</form>
+
+
+<br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+
+
+
+    
+    </body>
+</html>

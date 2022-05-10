@@ -189,7 +189,7 @@ table, tr, th, td{
   /* - click */
 
   .formcontainer input[type=text]:focus {
-    border: 2px solid rgb(101, 249, 123);
+    border: 4px solid rgb(101, 249, 123);
     box-shadow: 0 0 0 4px aqua;
 
   } 
@@ -232,10 +232,56 @@ table, tr, th, td{
 
 
 
-
-
   /*
   Pending
   .searchdiv input[type=text]:focus{
     border: none;
   }*/
+
+  input[type=text]:focus {
+    text-decoration: none;
+    border: 3px solid rgb(170, 47, 47);
+  }
+
+
+  /*Table styling*/
+
+  .tablediv table tr td{    
+      border: 1px rgb(147, 60, 228) solid;
+      border-collapse: collapse;
+  }
+
+  .tablediv table tr th{    
+    border: 1px rgb(147, 60, 228) solid;
+    border-collapse: collapse;
+}
+
+  .tablediv table{
+    width: 90%;
+  }
+
+  .tablediv table tr td{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  .tablediv table tr th{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  .tablediv{
+    height: 400px;
+    overflow-x: auto;
+  }
+
+  /*    tablediv table tr th, td  {}  */
+  /*    tablediv table, tr, th, td { }   */
+
+  /*    
+        Top navigation bar
+        header
+        Side contnets or sidenars
+        main content
+        footer
+   */

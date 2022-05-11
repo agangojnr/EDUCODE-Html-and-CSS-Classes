@@ -18,7 +18,7 @@ table, tr, th, td{
     padding: 20px;
 }
 
-#container{
+.container{
     /*border: 1px black solid;*/
     /*margin: 0 50px 0 50px;*/
     margin-top: 0;
@@ -36,7 +36,7 @@ table, tr, th, td{
     text-transform: uppercase;
 }
 
-#container{
+.container{
   background-color: #D3D3D3;
 }
 
@@ -169,7 +169,7 @@ table, tr, th, td{
     resize: none;
   }
 
-  .formcontainer button{
+  /* .formcontainer button{
     width: 40%;
     background-color: blue;
     margin: 0 30% 0 10%;
@@ -178,7 +178,7 @@ table, tr, th, td{
     border: none;
     font-size: 18px;
     color: azure;
-  }
+  } */
 
   /*Status attributes*/
   /* - Hover */

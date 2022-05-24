@@ -8,10 +8,10 @@ h2{
     text-transform: uppercase;
 }   
 
-table, tr, th, td{
+/* table, tr, th, td{
     border: 1px black solid;
     border-collapse: collapse;
-}
+} */
 
 #imagediv{
     border: 2px brown double;
@@ -246,7 +246,7 @@ table, tr, th, td{
 
   /*Table styling*/
 
-  .tablediv table tr td{    
+  /* .tablediv table tr td{    
       border: 1px rgb(147, 60, 228) solid;
       border-collapse: collapse;
   }
@@ -273,7 +273,7 @@ table, tr, th, td{
   .tablediv{
     height: 400px;
     overflow-x: auto;
-  }
+  } */
 
   /*    tablediv table tr th, td  {}  */
   /*    tablediv table, tr, th, td { }   */
@@ -285,3 +285,6 @@ table, tr, th, td{
         main content
         footer
    */
+
+
+   

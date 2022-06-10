@@ -131,63 +131,110 @@
         </div>
 
         <br>
-        <h4>THUMBNAIL</h4>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
+        <h2>CAROUSEL</h2>
+
+        <div id="myCarousel" class="carousel slide">
+            <!-- Carousel Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/slider1.jpg" alt="Loading slider1...">
+                    <div class="carousel-caption">
+                        <h2>SLIDER 1</h2>
+                        <p>Slider 1 description...</p>
+                        <a href="#" class="btn btn-danger btn-lg">Learn more...</a>s
+                    </div>
                 </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
+                <div class="item">
+                    <img src="images/slider2.jpg" alt="Loading slider2...">
+                    <div class="carousel-caption">
+                        <h2>SLIDER 2</h2>
+                        <p>Slider 2 description...</p>
+                        <a href="#" class="btn btn-danger btn-lg">Learn more...</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
-                </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
-                </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
-                </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
-                </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
+                <div class="item">
+                    <img src="images/slider3.jpg" alt="Loading slider3...">
+                    <div class="carousel-caption">
+                        <h2>SLIDER 3</h2>
+                        <p>Slider 3 description...</p>
+                        <a href="#" class="btn btn-danger btn-lg">Learn more...</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="./images/green1.jpg" alt="Loading...">
-                </div>
-                <div class="caption">
-                    <h1>Image Title</h1>
-                    <p>Image description</p>
-                </div>
-            </div>
+
+            <!-- Carousel navigation -->
+            <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <!-- <a href="#myCarousel" class="carousel-control left" data-slide="prev">&lsaquo;</a> -->
+            <!-- <a href="#myCarousel" class="carousel-control right" data-slide="next">&rsaquo;</a> -->
         </div>
+
+        <h3>BOOTSTRAP ALERTS</h3>
+
+        <div class="alert alert-success"><strong>Congratulations!</strong> Application accepted successful.</div>
+        <div class="alert alert-info"><strong>Attention!</strong> New jobs are available in this site.</div>
+        <div class="alert alert-warning"><strong>Attachment missing!</strong> Please attach the required file.</div>
+        <div class="alert alert-danger"><strong>Are you sure!</strong> Delete will permanently erase the data.</div>
+
+        <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert">
+              <!-- &times; -->
+              <i class="fa fa-times-circle" aria-hidden="true"></i>
+            </button>
+            <strong>Congratulations!</strong> Application accepted successful.
+        </div>
+
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert">
+            <!-- &times; -->
+            <i class="fa fa-times-circle text-danger" aria-hidden="true"></i>
+          </button> <strong> Attention!
+            </strong> New jobs are available in this <a href="#" class="btn btn-primary">site.</a>
+        </div>
+
+        <!-- toast alert sweet-alerts -->
+
+        <h3>List Group</h3>
+        <ul class="list-grop">
+            <li class="list-group-item bg-primary">
+                <h4 class="list-group-item-heading">PERSONAL RATING OF PROGRAMMING LANGUAGES</h4>
+            </li>
+            <li class="list-group-item list-group-item-success">Php - Laravel framework <span class="badge bg-primary">89%</span></li>
+            <li class="list-group-item list-group-item-info">C# - .NET framework <span class="badge bg-primary">99%</span></li>
+            <li class="list-group-item list-group-item-warning">Dart - Flutter framework <span class="badge bg-primary">97%</span></li>
+            <li class="list-group-item list-group-item-danger">Python - Django framework <span class="badge bg-primary">95%</span></li>
+        </ul>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item active">
+                <h5 class="list-group-item-heading">Php - Laravel framework</h5>
+                <p class="list-group-item-text">Language for building web-based systems and sites.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">C# - .NET framework </h4>
+                <p class="list-group-item-text">Language for building web, desktop and initiating hardware interaction.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Dart - Flutter framework</h4>
+                <p class="list-group-item-text">Language used for developing mobile applications both Android and iOS platforms.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Python - Django framework </h4>
+                <p class="list-group-item-text">Language for building web-based systems, artificial inteligences, data analysis and games.</p>
+            </a>
+        </div>
+
 
 
 

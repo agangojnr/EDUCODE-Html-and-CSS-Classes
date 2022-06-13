@@ -21,6 +21,108 @@
 
 <body>
     <div class="container mt-5">
+        <h3>Bootstrap Modal</h3>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="myModalLabel">Modal Header</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The content of a modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>List of Members</h3>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h1 class="panel-title">
+                    Monday, 13th June 2022
+                </h1>
+                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Add new member</button>
+
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Staff No</th>
+                        <th>Name</th>
+                        <th>Hours Worked</th>
+                    </tr>
+                    <tr>
+                        <td>123</td>
+                        <td>Colins Shitendi</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>123</td>
+                        <td>Colins Shitendi</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <h3>PANELS</h3>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>This is our panel body.</p>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Panel Without Title
+            </div>
+            <div class="panel-body">
+                <p>Panel Content</p>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">
+                    The title of our Panel
+                </h1>
+            </div>
+            <div class="panel-body">
+                <p>This is the content that makes up our panel body.</p>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>Content of our panel.</p>
+            </div>
+            <div class="panel-footer">
+                Panel Footer
+            </div>
+        </div>
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h1 class="panel-title">
+                    The title of our Panel
+                </h1>
+            </div>
+            <div class="panel-body">
+                <p>This is the content that makes up our panel body.</p>
+            </div>
+        </div>
+
+
+
         <h3>Font Awesome Icons</h3>
         test<i class="fa fa-binoculars" aria-hidden="true"></i><br />
         <i class="fa fa-envelope-open text-primary" aria-hidden="true"></i>
@@ -642,7 +744,7 @@
           <img src="images/green1.jpg " class="img-rounded" alt="Test image " />
         </div>
         <div class="col-md-6">
-          <img src="images/green1.jpg " class="img-circle" alt="Test image " />
+          <img src="images/green1.jpg" class="img-circle" alt="Test image " />
         </div>
       </div>
       <br /><br />
